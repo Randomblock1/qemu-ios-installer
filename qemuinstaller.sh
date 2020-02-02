@@ -11,6 +11,6 @@ touch qemu.list
 echo deb http://127.0.0.1:8000/ ./ > qemu.list
 apt update
 apt install io.mc.qemu -y --allow-unauthenticated
-echo YAY! Script finished. Go ahead and use QEMU!
+echo YAY! Script finished. If no errors occurred, go ahead and use QEMU!
 screen -XS pyserver quit
 exit

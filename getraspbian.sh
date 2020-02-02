@@ -1,3 +1,4 @@
+cd /var/mobile
 export PATH=/opt/local/bin:${PATH}
 mkdir ~/qemu-pi && cd qemu-pi
 echo getting latest raspbian...
